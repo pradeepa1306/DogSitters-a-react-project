@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.siting {
+  background: #f4f4f4;
+  margin: 5px 5px 20px 5px;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.siting h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.react-date-picker{
+  width:100% !important;
+  height: 35px !important;
+}
+
+.react-date-picker__wrapper{
+  border-radius: 5px !important;
+  border: thin solid #ccc !important;
+}
+
+.sittingDate{
+  text-align: end;
+}
